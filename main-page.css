@@ -1,0 +1,139 @@
+main {
+    left: 0;
+    margin-top: -305px;
+    padding-bottom: 200px;
+    padding-top: 100px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    }
+    
+.img-rotate {
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    height: 610px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(-45deg);
+    width: 610px;
+            }
+
+.img-rotate:hover {
+    -moz-transition: all 0.6s ease-in-out;
+    -webkit-transition: all 0.6s ease-in-out;
+    background: -moz-radial-gradient(center, ellipse cover, #25997f 0%, #25997f 19%, #000000 63%, #000000 100%); 
+    background: -ms-radial-gradient(center, ellipse cover, #25997f 0%, #25997f 19%, #000000 63%, #000000 100%); 
+    background: -o-radial-gradient(center, ellipse cover, #25997f 0%, #25997f 19%, #000000 63%, #000000 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #25997f), color-stop(19%, #25997f), color-stop(63%, #000000), color-stop(100%, #000000)); 
+    background: -webkit-radial-gradient(center, ellipse cover, #25997f 0%, #25997f 19%, #000000 63%, #000000 100%); 
+    background: radial-gradient(ellipse at center, #25997f 0%, #25997f 19%, #000000 63%, #000000 100%); 
+    border: 3px solid black;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25997f', endColorstr='#000000',GradientType=1 );     
+                }
+
+/*A class isn't working well in this case.*/
+
+#img1:hover {
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+            }
+
+#img2:hover {
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+            }
+
+#img3:hover {
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+            }
+
+#img4:hover {
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+            }
+
+video#background { 
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    background: url("wideo.png") no-repeat;
+    height: auto;
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    transition: 1s opacity; 
+    width: auto;
+    z-index: -100;
+                }
+
+video { 
+    display: block; 
+    }
+
+@media screen and (max-device-width: 810px) {
+    html {
+        background: url(wideo.png) #000000 no-repeat center center fixed;
+         }
+    #background {
+        display: none;
+    }
+}
+
+aside {
+    line-height: 0px;
+    display: block;
+    text-align: right;
+        
+    }
+
+.logo {
+    -moz-border-radius: 0px 0px 0px 60px;
+    -webkit-border-radius: 0px 0px 0px 60px;
+    border-bottom-style: double;
+    border-color: #25997f;
+    border-left-style: double;
+    border-radius: 0px 0px 0px 60px;
+    border-right-style: none;
+    border-top-style: none;
+    border-width: 7px;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding: 2px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: -1;
+    }
+
+h1 {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1.0px #25997f;
+    font-family: "Inconsolata";
+    font-size: 60px;   
+    }
+
+.description {
+color: white; 
+font-family: "Century Gothic", Helvetica, sans-serif; 
+font-size: 12px;
+letter-spacing: 1px; 
+text-shadow: 0px 0px 3px #000000, 0px 0px 5px #000000;
+            }
+
+footer {
+float: right;
+padding-top: 80%;
+        }
+
+a:link, a:hover, a:active, a:visited {
+    color: white;
+                                    }
