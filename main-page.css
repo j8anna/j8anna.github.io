@@ -29,7 +29,6 @@ main {
     background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #25997f), color-stop(19%, #25997f), color-stop(63%, #000000), color-stop(100%, #000000)); 
     background: -webkit-radial-gradient(center, ellipse cover, #25997f 0%, #25997f 19%, #000000 63%, #000000 100%); 
     background: radial-gradient(ellipse at center, #25997f 0%, #25997f 19%, #000000 63%, #000000 100%); 
-    border: 3px solid black;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25997f', endColorstr='#000000',GradientType=1 );     
                 }
 
